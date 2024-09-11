@@ -1,0 +1,17 @@
+.first-class{
+  color:red;
+  border: 1px dotted blue;
+}
+
+ #secondId{
+  color: yellow;
+ }
+
+ #thirdId{
+   text-decoration: underline;
+ }
+
+ .ghd-img{
+   width: 500px;
+   height: 600px;
+ }
