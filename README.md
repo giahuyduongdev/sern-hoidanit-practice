@@ -1,4 +1,4 @@
-# Khóa học Fullstack SERN (SQL, Express.js, React.js, Node.js) Web Developer  Miễn Phí với Hỏi Dân IT
+# Khóa học Fullstack SERN (SQL, Express.js, React.js, Node.js)
 
  Frontend: Reactjs + Redux. HTML/CSS-scss/Bootstrap4 (reactrap)  
  Backend: Node.js (Express) + MySql (Sequelize)
