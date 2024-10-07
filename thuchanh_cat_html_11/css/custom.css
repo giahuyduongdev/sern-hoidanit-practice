@@ -2,18 +2,6 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
-.banner {
-  /*  background-image: url('../img/banner.jpg');
-  height: 865px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
-  height: 865px;
-  background: url("../img/banner.jpg") no-repeat center;
-  background-size: cover;
-  padding: 20px;
-}
 
 .red {
   border: 1px solid red;
@@ -22,14 +10,20 @@ body {
 .green {
   border: 1px solid green;
 }
+
+.banner {
+  height: 865px;
+  background: url("../img/banner.jpg") no-repeat center;
+  background-size: cover;
+  padding: 20px;
+}
 .banner .about-sign-in {
   height: 79px;
   text-align: right;
   margin-top: 35px;
 }
-
 .banner .about-sign-in .about,
-.sign-in {
+.banner .about-sign-in .sign-in {
   text-decoration: none;
   padding: 10px 17px;
   font-size: 12px;
@@ -44,26 +38,40 @@ body {
   letter-spacing: 1px;
   line-height: 16px;
 }
-
 .banner .about-sign-in .about {
   color: black;
 }
-
 .banner .logo {
   background: url("../img/hapoERP.png") no-repeat center;
   margin-top: 145px;
   height: 77px;
 }
-
-.banner .text,
-.btn-start-now {
+.banner .content-center {
+  height: 50px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.banner .content-center .left,
+.banner .content-center .center,
+.banner .content-center .right {
+  width: 33%;
+  display: inline-block;
   text-align: center;
 }
-
+.banner .content-center span {
+  display: block;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+}
+.banner .content-center img {
+  width: 52px;
+  height: 48px;
+  margin-bottom: 14px;
+}
 .banner .text {
   margin-top: 30px;
 }
-
 .banner .btn-start-now button {
   text-transform: uppercase;
   padding: 10px 10px;
@@ -78,30 +86,7 @@ body {
   margin-top: 20px;
   cursor: pointer;
 }
-
-.banner .content-center {
-  height: 50px;
-  margin-bottom: 100px;
-  margin-top: 30px;
-}
-
-.banner .content-center .left,
-.center,
-.right {
-  width: 33%;
-  display: inline-block;
+.banner .text,
+.banner .btn-start-now {
   text-align: center;
-}
-
-.banner .content-center span {
-  display: block;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 48px;
-}
-
-.banner .content-center img {
-  width: 52px;
-  height: 48px;
-  margin-bottom: 14px;
 }
