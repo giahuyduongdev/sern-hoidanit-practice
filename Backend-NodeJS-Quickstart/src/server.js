@@ -2,8 +2,9 @@ import express from "express";
 import bodyParser from "body-parser";
 // /user?id=7
 import viewEngine from "./config/viewEngine";
-import initWebRoutes from "./route/web"
+import initWebRoutes from "./route/web";
 //import initWebRoutes from "../src/route/web"
+import connectDB from "./config/connectDB";
 require('dotenv').config();
 // Tải các biến môi trường từ một file .env và gán chúng vào đối tượng process.env của Node.js.
 
@@ -21,6 +22,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 viewEngine(app);
 initWebRoutes(app);
 
+connectDB();
 
 
 let port = process.env.PORT || 6969;
