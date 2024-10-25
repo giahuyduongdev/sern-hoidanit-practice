@@ -5,13 +5,14 @@ module.exports = {
     return queryInterface.bulkInsert('Users', [
       {
         email: 'giahuyduongdev@gnmail.com',
-        password: '123456',
+        password: '123456',//plain test -> hash password
         firstName: 'Gia',
-        lastName: 'Huy Duong', //plain test -> hash password
+        lastName: 'Huy Duong', 
         address: 'Ho Chi Minh city',
         gender: 1,
-        typeRole: 'ROLE',
-        keyRole: 'R1',
+        roleId: 'R1',
+        phonenumber: '0937195327',
+        positionId: 'P0',
         createdAt: new Date(),
         updatedAt: new Date(),
       },
