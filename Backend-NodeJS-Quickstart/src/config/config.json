@@ -5,7 +5,8 @@
     "database": "giahuyduong",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "logging" : false
+    "logging" : false,
+    "freezeTableName": true
   },
   "test": {
     "username": "root",
