@@ -7,7 +7,10 @@ let router = express.Router();
 let initWebRoutes = (app) =>//Hàm này nhận một đối tượng app làm tham số. Đối tượng app thường là ứng dụng Express.
 {
   router.get("/", homeController.getHomePage); // rest api
-  router.get("/about", homeController.getAboutPage); 
+  router.get("/about", homeController.getAboutPage);
+  router.get("/crud", homeController.getCRUD); 
+
+  router.post("/post-crud", homeController.postCRUD);
 
   return app.use("/", router);
 }
